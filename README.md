@@ -12,6 +12,5 @@
 
 ### ***Displaying exercises*** :
 >![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/850150d6-3ee7-4cd6-b170-c0ba6f3ed127)
-
 >![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/de1faff3-e80e-47a1-b41a-8adbdfbba45b)
 
