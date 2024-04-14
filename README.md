@@ -5,11 +5,13 @@
 >![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/1eb318ec-34f5-4c45-9baa-c3c2cca61e89)
 
 ### ***Admin Panel*** :
->![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/ca3da908-aa9f-47ed-9649-21ad26650154)
+>![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/d592ca43-9b65-469e-8a7f-cbf0bd20b19f)
 
 ### ***Adding Exercise*** :
->![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/acc736f7-7fa0-41bb-95fa-9e8bbd395de1)
+>![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/dfbfd4ff-08c0-4f17-831e-d52019d10310)
 
 ### ***Displaying exercises*** :
->![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/ea72012f-a155-4c13-af62-ae8af437a98f)
->![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/8dfe253a-a098-4695-84fb-95da4738937a)
+>![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/850150d6-3ee7-4cd6-b170-c0ba6f3ed127)
+
+>![image](https://github.com/NoMercy404/GymGuru-App-Kotlin/assets/126580913/de1faff3-e80e-47a1-b41a-8adbdfbba45b)
+
