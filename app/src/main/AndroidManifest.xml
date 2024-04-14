@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dumbbell"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dumbbell"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GymGuru"
+        tools:targetApi="31">
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GymGuru">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GymGuru">
+        </activity>
+        <activity
+            android:name=".AddExcercise"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GymGuru">
+        </activity>
+        <activity
+            android:name=".WyswietlanieCwiczen"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GymGuru">
+
+        </activity>
+        <activity
+            android:name=".AccountInfo"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GymGuru">
+
+        </activity>
+
+
+
+        <activity
+            android:name=".Barki"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".Biceps"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".Brzuch"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".Cardio"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".Fbw"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".KlatkaP"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".Lydki"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".Plecy"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".Posladki"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".Przedramie"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+        <activity
+            android:name=".Triceps"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
+
+    </application>
+
+</manifest>

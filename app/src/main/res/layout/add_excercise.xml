@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".WyswietlanieCwiczen"
+    android:background="#262626">
+
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dodcwiczen"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="  Nazwa Ćwiczenia"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:backgroundTint="#FF4081"
+        android:inputType="textEmailAddress"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+
+    <TextView
+        android:id="@+id/MuscleGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+        android:layout_marginTop="8dp"
+        android:text="  Zaangażowana partia mięśni :"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="7dp"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <Spinner
+        android:id="@+id/spinnerMuscleGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+        android:layout_marginTop="15dp"
+        android:hint="Select Muscle Group"
+        android:layout_marginBottom="10px"
+        android:entries="@array/MusclePart"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/spinner_background"
+        android:backgroundTint="#FF4081"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+
+    <EditText
+        android:layout_marginTop="15px"
+        android:id="@+id/excerciseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Opis ćwiczenia"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:backgroundTint="#FF4081"
+        android:inputType="textEmailAddress"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <EditText
+        android:layout_marginTop="15px"
+        android:id="@+id/excerciseLink"
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:hint="  Link do ćwiczenia na YouTube"
+        android:textColorHint="@color/white"
+        android:backgroundTint="#FF4081"
+        android:inputType="textEmailAddress"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <Button
+        android:layout_marginTop="70px"
+        android:id="@+id/AddExerciseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj Ćwiczenie"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:backgroundTint="#FF4081"
+        android:inputType="textEmailAddress"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <LinearLayout
+        android:id="@+id/layouty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addExcerciseButton1"
+            android:layout_width="0dp"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="+ Dodaj ćw."
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#FF4081"
+            android:background="#303030"
+            android:textColorHint="@color/white"
+
+            />
+
+        <Button
+            android:id="@+id/excercisesButton1"
+            android:layout_width="0dp"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="Ćwiczenia"
+            android:background="#303030"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#FF4081"
+            android:textColorHint="@color/white"/>
+
+        <Button
+            android:id="@+id/accInfoButton1"
+            android:layout_width="0dp"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="Konto"
+            android:background="#303030"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#FF4081"
+            android:textColorHint="@color/white"
+            />
+
+    </LinearLayout>
+</LinearLayout>

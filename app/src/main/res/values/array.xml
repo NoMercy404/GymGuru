@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MusclePart">
+        <item>Klatka Piersiowa</item>
+        <item>Plecy</item>
+        <item>Barki</item>
+        <item>Triceps</item>
+        <item>Biceps</item>
+        <item>Przedramię</item>
+        <item>Uda i pośladki</item>
+        <item>Brzuch</item>
+        <item>Łydki</item>
+        <item>Całe ciało</item>
+        <item>Cardio</item>
+    </string-array>
+</resources>

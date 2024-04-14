@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#262626"
+    tools:context=".WyswietlanieCwiczen">
+
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="380dp"
+        android:layout_height="400dp"
+        android:src="@drawable/rejestracja"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:hint="Podaj Email "
+        android:textColor="#FFFFFF"
+
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:backgroundTint="#FF4081"
+        android:inputType="textEmailAddress"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+
+    <EditText
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="10px"
+        android:hint="Podaj Login "
+        android:backgroundTint="#FF4081"
+
+        android:textColorHint="@color/white"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/Haslo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:hint="Podaj Hasło "
+        android:inputType="textPassword"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zarejestruj"
+        android:textColor="#FFFFFF"
+        android:background="#FF4081"
+        android:layout_marginTop="16dp"
+        />
+    <Button
+        android:id="@+id/Powrot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powrót"
+        android:textColor="#FFFFFF"
+        android:background="#FF4081"
+        android:layout_marginTop="16dp"
+        />
+</LinearLayout>

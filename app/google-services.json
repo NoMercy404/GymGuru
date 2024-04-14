@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "632043482609",
+    "project_id": "gymguru-689e1",
+    "storage_bucket": "gymguru-689e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632043482609:android:c92805fdeca008bf5a6850",
+        "android_client_info": {
+          "package_name": "com.example.gymguru"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd_uxZVC-B4UrIX2MKchLadaGb15v7g7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
