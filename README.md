@@ -3,9 +3,11 @@
 >Writing and reading from the database:
 >* logging and registration
 >* adding and displaying exercises
+
 >Storage of account intentions
 >* displaying email
 >* displaying password
+
 > Creation of a Custom CardView
 
 ### ***Login and Registration*** :
